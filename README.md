@@ -10,6 +10,7 @@ npm install -g tsc
 ```
 Be sure you have the right version of chromedriver(or geckodriver if you use Firefox) in your environment variables.
 Clone repository and launch `npm install` for the dependencies.
+At this point, you can launch `npm start` and everything should work. 
 
 Note: If you don't use Chrome, you should change  `browserType` in `Browser.ts`
 
