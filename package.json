@@ -1,0 +1,23 @@
+{
+  "name": "selenium-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "nodemon": "nodemon dist/app.js",
+    "tsc-watch": "tsc -w",
+    "start": "concurrently \"npm:nodemon\" \"npm:tsc-watch\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+
+  },
+  "dependencies": {
+    "@types/selenium-webdriver": "^4.0.9",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  }
+}
